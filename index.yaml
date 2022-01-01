@@ -86,4 +86,25 @@ entries:
     urls:
     - https://github.com/teaglebuilt/charts/releases/download/pihole-2.5.3/pihole-2.5.3.tgz
     version: 2.5.3
+  rancher:
+  - apiVersion: v1
+    appVersion: v2.6.2
+    created: "2022-01-01T14:05:22.493885609Z"
+    description: Install Rancher Server to manage Kubernetes clusters across providers.
+    digest: 1a1a6749194152b4baf1b9ac06c1729b23458ab08125cebe6eb601fd6f2983be
+    home: https://rancher.com
+    icon: https://github.com/rancher/ui/blob/master/public/assets/images/logos/welcome-cow.svg
+    keywords:
+    - rancher
+    kubeVersion: < 1.22.0-0
+    maintainers:
+    - email: charts@rancher.com
+      name: Rancher Labs
+    name: rancher
+    sources:
+    - https://github.com/rancher/rancher
+    - https://github.com/rancher/server-chart
+    urls:
+    - https://github.com/teaglebuilt/charts/releases/download/rancher-2.6.2/rancher-2.6.2.tgz
+    version: 2.6.2
 generated: "2021-12-27T14:09:00.239093339Z"
