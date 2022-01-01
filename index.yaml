@@ -1,5 +1,22 @@
 apiVersion: v1
 entries:
+  actions-runner-controller:
+  - apiVersion: v2
+    appVersion: 0.20.3
+    created: "2022-01-01T16:40:41.934183465Z"
+    description: A Kubernetes controller that operates self-hosted runners for GitHub Actions on your Kubernetes cluster.
+    digest: 0b84f30a3842a0805c25dab5e52e7a4ca8c52ef841e513ce5718505aa3a06d0d
+    home: https://github.com/actions-runner-controller/actions-runner-controller
+    maintainers:
+    - name: actions-runner-controller
+      url: https://github.com/actions-runner-controller
+    name: actions-runner-controller
+    sources:
+    - https://github.com/actions-runner-controller/actions-runner-controller
+    type: application
+    urls:
+    - https://github.com/teaglebuilt/charts/releases/download/actions-runner-controller-0.15.1/actions-runner-controller-0.15.1.tgz
+    version: 0.15.1
   cert-manager:
   - annotations:
       artifacthub.io/prerelease: "false"
