@@ -117,7 +117,7 @@ serviceWeb:
     metallb.universe.tf/address-pool: pihole
     metallb.universe.tf/allow-shared-ip: pihole-svc
 
-virtualHost: pi.hole
+virtualHost: pihole.k3s-master.local
 
 # -- Configuration for the Ingress
 ingress:
@@ -130,10 +130,10 @@ ingress:
   annotations:
     kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
-  path: /pihole
+  path: /
   hosts:
     # virtualHost (default value is pi.hole) will be appended to the hosts
-    - k3s-master.local
+    - pihole.k3s-master.local
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
@@ -278,8 +278,8 @@ dnsmasq:
   # - server=/bar.foo/192.168.178.11
 
   # -- Add custom dns entries to override the dns resolution. All lines will be added to the pihole dnsmasq configuration.
-  customDnsEntries:
-    - address=/k3s-master.local/192.168.1.187
+  # customDnsEntries:
+  #   - address=/k3s-master.local/192.168.1.187
 
   # -- Dnsmasq reads the /etc/hosts file to resolve ips. You can add additional entries if you like
   additionalHostsEntries: []
