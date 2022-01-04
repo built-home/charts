@@ -51,7 +51,7 @@ serviceDns:
   externalTrafficPolicy: Local
 
   # -- A fixed `spec.loadBalancerIP` for the DNS Service
-  loadBalancerIP: "192.168.1.153"
+  loadBalancerIP: "192.168.1.187"
   # -- A fixed `spec.loadBalancerIP` for the IPv6 DNS Service
   loadBalancerIPv6: ""
 
@@ -127,10 +127,10 @@ ingress:
   # ingressClassName: nginx
 
   # -- Annotations for the ingress
-  annotations: {}
-    # kubernetes.io/ingress.class: nginx
+  annotations:
+    kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
-  path: /
+  path: /pihole
   hosts:
     # virtualHost (default value is pi.hole) will be appended to the hosts
     - k3s-master.local
