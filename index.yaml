@@ -109,6 +109,20 @@ entries:
     - https://github.com/built-home/charts/releases/download/metallb-0.11.0/metallb-0.11.0.tgz
     version: 0.11.0
   - apiVersion: v2
+    appVersion: v0.1.1
+    created: "2022-01-07T21:32:44.362900712Z"
+    description: A network load-balancer implementation for Kubernetes using standard routing protocols
+    digest: bd4307b273ea88252f018699585efd6e396ee12e4243abefa499596c8143ea67
+    home: https://metallb.universe.tf
+    icon: https://metallb.universe.tf/images/logo/metallb-white.png
+    name: metallb
+    sources:
+    - https://github.com/metallb/metallb
+    type: application
+    urls:
+    - https://github.com/built-home/charts/releases/download/metallb-0.1.1/metallb-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: v0.1.0
     created: "2022-01-07T20:57:30.397236447Z"
     description: A network load-balancer implementation for Kubernetes using standard routing protocols
