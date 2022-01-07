@@ -68,6 +68,31 @@ entries:
     urls:
     - https://github.com/built-home/charts/releases/download/grafana-6.20.3/grafana-6.20.3.tgz
     version: 6.20.3
+  ingress-nginx:
+  - annotations:
+      artifacthub.io/changes: |
+        - use controller v1.1.0
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 1.1.0
+    created: "2022-01-07T20:57:30.234828796Z"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy and load balancer
+    digest: 1d34bed1b29067214a0ca0538b96bd14abb98b70e7b5061dd90623abe72eedaa
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - name: ChiefAlexander
+    name: ingress-nginx
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    type: application
+    urls:
+    - https://github.com/built-home/charts/releases/download/ingress-nginx-4.0.13/ingress-nginx-4.0.13.tgz
+    version: 4.0.13
   metallb:
   - apiVersion: v2
     appVersion: v0.11.0
@@ -83,6 +108,18 @@ entries:
     urls:
     - https://github.com/built-home/charts/releases/download/metallb-0.11.0/metallb-0.11.0.tgz
     version: 0.11.0
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2022-01-07T20:57:30.397236447Z"
+    description: A network load-balancer implementation for Kubernetes using standard routing protocols
+    digest: e254dc4ddb58d8302bb9484f3ba4b4c9002fd64089bc1e77a8e6b540ce941441
+    home: https://metallb.universe.tf
+    icon: https://metallb.universe.tf/images/logo/metallb-white.png
+    name: metallb
+    type: application
+    urls:
+    - https://github.com/built-home/charts/releases/download/metallb-0.1.0/metallb-0.1.0.tgz
+    version: 0.1.0
   pihole:
   - apiVersion: v1
     appVersion: 2021.10.1
