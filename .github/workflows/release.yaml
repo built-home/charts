@@ -48,5 +48,6 @@ jobs:
         with:
           charts_dir: charts
           config: cr.yaml
+          charts_repo_url: https://built-home.github.io/charts
         env:
           CR_TOKEN: "${{ secrets.CR_TOKEN }}"
