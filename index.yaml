@@ -122,6 +122,6 @@ entries:
     - https://github.com/rancher/rancher
     - https://github.com/rancher/server-chart
     urls:
-    - https://github.com/teaglebuilt/charts/releases/download/rancher-2.6.2/rancher-2.6.2.tgz
+    - https://github.com/built-home/charts/releases/download/rancher-2.6.2/rancher-2.6.2.tgz
     version: 2.6.2
 generated: "2021-12-27T14:09:00.239093339Z"
