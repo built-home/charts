@@ -25,6 +25,6 @@ entries:
     - https://github.com/grafana/grafana
     type: application
     urls:
-    - https://github.com/teaglebuilt/charts/releases/download/grafana-6.20.3/grafana-6.20.3.tgz
+    - https://github.com/built-home/charts/releases/download/grafana-6.20.3/grafana-6.20.3.tgz
     version: 6.20.3
 generated: "2021-12-27T14:09:00.239093339Z"
