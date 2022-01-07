@@ -1,5 +1,46 @@
 apiVersion: v1
 entries:
+  actions-runner-controller:
+  - apiVersion: v2
+    appVersion: 0.20.3
+    created: "2022-01-01T16:40:41.934183465Z"
+    description: A Kubernetes controller that operates self-hosted runners for GitHub Actions on your Kubernetes cluster.
+    digest: 0b84f30a3842a0805c25dab5e52e7a4ca8c52ef841e513ce5718505aa3a06d0d
+    home: https://github.com/actions-runner-controller/actions-runner-controller
+    maintainers:
+    - name: actions-runner-controller
+      url: https://github.com/actions-runner-controller
+    name: actions-runner-controller
+    sources:
+    - https://github.com/actions-runner-controller/actions-runner-controller
+    type: application
+    urls:
+    - https://github.com/teaglebuilt/charts/releases/download/actions-runner-controller-0.15.1/actions-runner-controller-0.15.1.tgz
+    version: 0.15.1
+  cert-manager:
+  - annotations:
+      artifacthub.io/prerelease: "false"
+    apiVersion: v1
+    appVersion: v1.6.1
+    created: "2021-12-29T19:50:39.66740833Z"
+    description: A Helm chart for cert-manager
+    digest: b8f5a4694bec2120b0d4a88bbf3b23638c32ad76fdc047135aea1454bd664d38
+    home: https://github.com/jetstack/cert-manager
+    icon: https://raw.githubusercontent.com/jetstack/cert-manager/master/logo/logo.png
+    keywords:
+    - cert-manager
+    - kube-lego
+    - letsencrypt
+    - tls
+    maintainers:
+    - email: cert-manager-maintainers@googlegroups.com
+      name: cert-manager-maintainers
+    name: cert-manager
+    sources:
+    - https://github.com/jetstack/cert-manager
+    urls:
+    - https://github.com/teaglebuilt/charts/releases/download/cert-manager-v1.6.1/cert-manager-v1.6.1.tgz
+    version: v1.6.1
   grafana:
   - apiVersion: v2
     appVersion: 8.3.4
@@ -27,4 +68,60 @@ entries:
     urls:
     - https://github.com/built-home/charts/releases/download/grafana-6.20.3/grafana-6.20.3.tgz
     version: 6.20.3
+  metallb:
+  - apiVersion: v2
+    appVersion: v0.11.0
+    created: "2021-12-29T19:50:39.746367941Z"
+    description: A network load-balancer implementation for Kubernetes using standard routing protocols
+    digest: 91d2680d73024234c216c95c2c2bbd484203ce5c09a9a4b91d124ea21a65a219
+    home: https://metallb.universe.tf
+    icon: https://metallb.universe.tf/images/logo/metallb-white.png
+    name: metallb
+    sources:
+    - https://github.com/metallb/metallb
+    type: application
+    urls:
+    - https://github.com/teaglebuilt/charts/releases/download/metallb-0.11.0/metallb-0.11.0.tgz
+    version: 0.11.0
+  pihole:
+  - apiVersion: v1
+    appVersion: 2021.10.1
+    created: "2021-12-29T19:50:39.830521238Z"
+    description: Installs pihole in kubernetes
+    digest: 27797d7d74576d2ed206f20a8bb70c83d04b6801b5d072ab68a37fc25135a735
+    home: https://github.com/MoJo2600/pihole-kubernetes/tree/master/charts/pihole
+    icon: https://i2.wp.com/pi-hole.net/wp-content/uploads/2016/12/Vortex-R.png
+    maintainers:
+    - email: christian.erhardt@mojo2k.de
+      name: MoJo2600
+    name: pihole
+    sources:
+    - https://github.com/MoJo2600/pihole-kubernetes/tree/master/charts/pihole
+    - https://pi-hole.net/
+    - https://github.com/pi-hole
+    - https://github.com/pi-hole/docker-pi-hole
+    urls:
+    - https://github.com/teaglebuilt/charts/releases/download/pihole-2.5.3/pihole-2.5.3.tgz
+    version: 2.5.3
+  rancher:
+  - apiVersion: v1
+    appVersion: v2.6.2
+    created: "2022-01-01T14:05:22.493885609Z"
+    description: Install Rancher Server to manage Kubernetes clusters across providers.
+    digest: 1a1a6749194152b4baf1b9ac06c1729b23458ab08125cebe6eb601fd6f2983be
+    home: https://rancher.com
+    icon: https://github.com/rancher/ui/blob/master/public/assets/images/logos/welcome-cow.svg
+    keywords:
+    - rancher
+    kubeVersion: < 1.22.0-0
+    maintainers:
+    - email: charts@rancher.com
+      name: Rancher Labs
+    name: rancher
+    sources:
+    - https://github.com/rancher/rancher
+    - https://github.com/rancher/server-chart
+    urls:
+    - https://github.com/teaglebuilt/charts/releases/download/rancher-2.6.2/rancher-2.6.2.tgz
+    version: 2.6.2
 generated: "2021-12-27T14:09:00.239093339Z"
