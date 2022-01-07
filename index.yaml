@@ -15,7 +15,7 @@ entries:
     - https://github.com/actions-runner-controller/actions-runner-controller
     type: application
     urls:
-    - https://github.com/teaglebuilt/charts/releases/download/actions-runner-controller-0.15.1/actions-runner-controller-0.15.1.tgz
+    - https://github.com/built-home/charts/releases/download/actions-runner-controller-0.15.1/actions-runner-controller-0.15.1.tgz
     version: 0.15.1
   cert-manager:
   - annotations:
@@ -39,7 +39,7 @@ entries:
     sources:
     - https://github.com/jetstack/cert-manager
     urls:
-    - https://github.com/teaglebuilt/charts/releases/download/cert-manager-v1.6.1/cert-manager-v1.6.1.tgz
+    - https://github.com/built-home/charts/releases/download/cert-manager-v1.6.1/cert-manager-v1.6.1.tgz
     version: v1.6.1
   grafana:
   - apiVersion: v2
@@ -81,7 +81,7 @@ entries:
     - https://github.com/metallb/metallb
     type: application
     urls:
-    - https://github.com/teaglebuilt/charts/releases/download/metallb-0.11.0/metallb-0.11.0.tgz
+    - https://github.com/built-home/charts/releases/download/metallb-0.11.0/metallb-0.11.0.tgz
     version: 0.11.0
   pihole:
   - apiVersion: v1
@@ -101,7 +101,7 @@ entries:
     - https://github.com/pi-hole
     - https://github.com/pi-hole/docker-pi-hole
     urls:
-    - https://github.com/teaglebuilt/charts/releases/download/pihole-2.5.3/pihole-2.5.3.tgz
+    - https://github.com/built-home/charts/releases/download/pihole-2.5.3/pihole-2.5.3.tgz
     version: 2.5.3
   rancher:
   - apiVersion: v1
